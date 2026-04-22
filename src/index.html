@@ -1,0 +1,887 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>videobelajar</title>
+  <link href="./style/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header class="bg-white shadow-sm">
+      <div
+        class="container mx-auto flex max-w-[1200px] items-center justify-between px-4 py-4 md:px-6 lg:px-10"
+      >
+        <img src="./assets/images/logo.png" alt="Logo" class="h-6 md:h-8" />
+        <div class="relative flex items-center space-x-5 md:space-x-7">
+          <a
+            href="#"
+            class="text-sm text-gray-500 hover:text-gray-900 md:text-base"
+            >Kategori</a
+          >
+          <div class="relative">
+            <img
+              id="avatar"
+              src="./assets/images/avatar.png"
+              alt="User Avatar"
+              class="h-8 w-8 cursor-pointer rounded-md md:h-12 md:w-12"
+            />
+            <div
+              id="dropdown"
+              class="absolute right-0 z-10 mt-2 hidden w-48 rounded-md border border-gray-200 bg-white shadow-lg"
+            >
+              <p class="block px-4 py-2 text-sm text-gray-700">Hi, user</p>
+              <a
+                href="./login.html"
+                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                >Login</a
+              >
+              <hr />
+              <a
+                href="#"
+                class="block px-4 py-2 text-sm text-red-600 hover:bg-gray-100"
+                >Logout</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="relative mx-4 mt-6 overflow-hidden rounded-xl bg-cover bg-center py-16 sm:mx-8 md:mx-auto md:mt-10 lg:mt-16 max-w-[1170px]"
+        style="background-image: url('./assets/images/background-board.jpg')"
+      >
+        <div class="absolute inset-0 bg-black opacity-70"></div>
+        <div
+          class="relative container mx-auto px-4 pt-12 text-center text-white md:px-6 lg:px-10"
+        >
+          <h1
+            class="text-3xl font-bold leading-tight sm:text-4xl md:text-5xl mb-6"
+          >
+            Revolusi Pembelajaran: Temukan <br />
+            Ilmu Baru melalui Platform Video <br />
+            Interaktif!
+          </h1>
+          <p
+            class="text-sm leading-relaxed text-gray-200 sm:text-base lg:text-lg mb-8"
+          >
+            Temukan ilmu baru yang menarik dan mendalam melalui koleksi video
+            pembelajaran berkualitas tinggi. Tidak <br />
+            hanya itu, Anda juga dapat berpartisipasi dalam latihan interaktif
+            yang akan meningkatkan pemahaman Anda.
+          </p>
+          <a
+            href="#"
+            class="rounded-md bg-green-500 px-4 py-2 text-sm text-white hover:bg-green-600 sm:px-6 sm:py-3 md:text-base"
+          >
+            Temukan Video Course untuk Dipelajari!
+          </a>
+        </div>
+      </section>
+
+      <section class="bg-[#FFFDF3] pt-16">
+        <div class="container mx-auto max-w-[1200px] px-4 text-start">
+          <h2 class="mb-4 text-3xl font-bold md:text-4xl">
+            Koleksi Video Pembelajaran Unggulan
+          </h2>
+          <p class="mb-10 text-lg text-gray-700 md:text-xl">
+            Jelajahi Dunia Pengetahuan Melalui Pilihan Kami!
+          </p>
+
+          <div class="mb-12 flex space-x-7 overflow-x-auto whitespace-nowrap">
+            <a
+              href="#"
+              class="border-b-4 border-red-500 pb-2 font-semibold text-red-500"
+              >Semua Kelas</a
+            >
+            <a href="#" class="text-gray-500 hover:text-gray-900">Pemasaran</a>
+            <a href="#" class="text-gray-500 hover:text-gray-900">Desain</a>
+            <a href="#" class="text-gray-500 hover:text-gray-900"
+              >Pengembangan Diri</a
+            >
+            <a href="#" class="text-gray-500 hover:text-gray-900">Bisnis</a>
+          </div>
+
+          <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+              <a href="./detail.html" class="block">
+                <img
+                  src="./assets/images/card.png"
+                  alt="Course Image"
+                  class="h-48 w-full object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="mb-2 text-lg font-semibold text-gray-900">
+                    Big 4 Auditor Financial Analyst
+                  </h3>
+                  <p class="mb-4 text-sm text-gray-600">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan...
+                  </p>
+
+                  <div class="mb-4 flex items-center">
+                    <img
+                      src="./assets/images/avatar1.png"
+                      alt="Instructor"
+                      class="mr-3 h-10 w-10 rounded-full"
+                    />
+                    <div>
+                      <p class="font-medium text-gray-900">Jenna Ortega</p>
+                      <p class="text-sm text-gray-600">
+                        Senior Accountant di Gojek
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-1">
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-gray-300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-gray-300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+
+                      <span class="ml-1 text-sm font-semibold text-gray-700"
+                        >3.5</span
+                      >
+                      <span class="text-sm text-gray-500">(86)</span>
+                    </div>
+
+                    <div class="text-lg font-bold text-green-500">Rp 300K</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+              <a href="./detail.html" class="block">
+                <img
+                  src="./assets/images/card.png"
+                  alt="Course Image"
+                  class="h-48 w-full object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="mb-2 text-lg font-semibold text-gray-900">
+                    Big 4 Auditor Financial Analyst
+                  </h3>
+                  <p class="mb-4 text-sm text-gray-600">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan...
+                  </p>
+
+                  <div class="mb-4 flex items-center">
+                    <img
+                      src="./assets/images/avatar1.png"
+                      alt="Instructor"
+                      class="mr-3 h-10 w-10 rounded-full"
+                    />
+                    <div>
+                      <p class="font-medium text-gray-900">Jenna Ortega</p>
+                      <p class="text-sm text-gray-600">
+                        Senior Accountant di Gojek
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-1">
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-gray-300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-gray-300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+
+                      <span class="ml-1 text-sm font-semibold text-gray-700"
+                        >3.5</span
+                      >
+                      <span class="text-sm text-gray-500">(86)</span>
+                    </div>
+
+                    <div class="text-lg font-bold text-green-500">Rp 300K</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+              <a href="./detail.html" class="block">
+                <img
+                  src="./assets/images/card.png"
+                  alt="Course Image"
+                  class="h-48 w-full object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="mb-2 text-lg font-semibold text-gray-900">
+                    Big 4 Auditor Financial Analyst
+                  </h3>
+                  <p class="mb-4 text-sm text-gray-600">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan...
+                  </p>
+
+                  <div class="mb-4 flex items-center">
+                    <img
+                      src="./assets/images/avatar1.png"
+                      alt="Instructor"
+                      class="mr-3 h-10 w-10 rounded-full"
+                    />
+                    <div>
+                      <p class="font-medium text-gray-900">Jenna Ortega</p>
+                      <p class="text-sm text-gray-600">
+                        Senior Accountant di Gojek
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-1">
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-gray-300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-gray-300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+
+                      <span class="ml-1 text-sm font-semibold text-gray-700"
+                        >3.5</span
+                      >
+                      <span class="text-sm text-gray-500">(86)</span>
+                    </div>
+
+                    <div class="text-lg font-bold text-green-500">Rp 300K</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+              <a href="./detail.html" class="block">
+                <img
+                  src="./assets/images/card.png"
+                  alt="Course Image"
+                  class="h-48 w-full object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="mb-2 text-lg font-semibold text-gray-900">
+                    Big 4 Auditor Financial Analyst
+                  </h3>
+                  <p class="mb-4 text-sm text-gray-600">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan...
+                  </p>
+
+                  <div class="mb-4 flex items-center">
+                    <img
+                      src="./assets/images/avatar1.png"
+                      alt="Instructor"
+                      class="mr-3 h-10 w-10 rounded-full"
+                    />
+                    <div>
+                      <p class="font-medium text-gray-900">Jenna Ortega</p>
+                      <p class="text-sm text-gray-600">
+                        Senior Accountant di Gojek
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-1">
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-gray-300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-gray-300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+
+                      <span class="ml-1 text-sm font-semibold text-gray-700"
+                        >3.5</span
+                      >
+                      <span class="text-sm text-gray-500">(86)</span>
+                    </div>
+
+                    <div class="text-lg font-bold text-green-500">Rp 300K</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+              <a href="./detail.html" class="block">
+                <img
+                  src="./assets/images/card.png"
+                  alt="Course Image"
+                  class="h-48 w-full object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="mb-2 text-lg font-semibold text-gray-900">
+                    Big 4 Auditor Financial Analyst
+                  </h3>
+                  <p class="mb-4 text-sm text-gray-600">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan...
+                  </p>
+
+                  <div class="mb-4 flex items-center">
+                    <img
+                      src="./assets/images/avatar1.png"
+                      alt="Instructor"
+                      class="mr-3 h-10 w-10 rounded-full"
+                    />
+                    <div>
+                      <p class="font-medium text-gray-900">Jenna Ortega</p>
+                      <p class="text-sm text-gray-600">
+                        Senior Accountant di Gojek
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-1">
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-gray-300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-gray-300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+
+                      <span class="ml-1 text-sm font-semibold text-gray-700"
+                        >3.5</span
+                      >
+                      <span class="text-sm text-gray-500">(86)</span>
+                    </div>
+
+                    <div class="text-lg font-bold text-green-500">Rp 300K</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+              <a href="./detail.html" class="block">
+                <img
+                  src="./assets/images/card.png"
+                  alt="Course Image"
+                  class="h-48 w-full object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="mb-2 text-lg font-semibold text-gray-900">
+                    Big 4 Auditor Financial Analyst
+                  </h3>
+                  <p class="mb-4 text-sm text-gray-600">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan...
+                  </p>
+
+                  <div class="mb-4 flex items-center">
+                    <img
+                      src="./assets/images/avatar1.png"
+                      alt="Instructor"
+                      class="mr-3 h-10 w-10 rounded-full"
+                    />
+                    <div>
+                      <p class="font-medium text-gray-900">Jenna Ortega</p>
+                      <p class="text-sm text-gray-600">
+                        Senior Accountant di Gojek
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-1">
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-gray-300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+                      <svg
+                        class="h-5 w-5 fill-gray-300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M10 15l-5.878 3.09 1.123-6.545L.489 7.91l6.572-.955L10 1l2.939 5.955 6.572.955-4.756 3.635 1.123 6.545z"
+                        />
+                      </svg>
+
+                      <span class="ml-1 text-sm font-semibold text-gray-700"
+                        >3.5</span
+                      >
+                      <span class="text-sm text-gray-500">(86)</span>
+                    </div>
+
+                    <div class="text-lg font-bold text-green-500">Rp 300K</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="relative bg-cover bg-center py-16 rounded-xl overflow-hidden mx-4 sm:mx-8 md:mx-auto max-w-[1170px] mt-6 md:mt-10 lg:mt-16 mb-10"
+        style="background-image: url('./assets/images/background-board.jpg')"
+      >
+        <div class="absolute inset-0 bg-black opacity-70"></div>
+
+        <div
+          class="relative container mx-auto px-4 md:px-6 lg:px-10 pt-12 text-center text-white"
+        >
+          <p
+            class="text-gray-200 text-sm sm:text-base lg:text-lg leading-relaxed"
+          >
+            NEWSLETTER
+          </p>
+          <h1
+            class="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 leading-tight"
+          >
+            Mau Belajar Lebih Banyak?
+          </h1>
+          <p
+            class="text-gray-200 mb-8 text-sm sm:text-base lg:text-lg leading-relaxed"
+          >
+            Daftarkan dirimu untuk mendapatkan informasi terbaru dan <br />
+            penawaran spesial dari program-program terbaik hariesok.id
+          </p>
+          <div class="relative w-full max-w-[500px] mt-8 gap-2 flex mx-auto">
+            <input
+              type="text"
+              placeholder="Masukkan Emailmu"
+              class="w-full py-2.5 pr-12 pl-2.5 border border-gray-300 rounded-md outline-none"
+            />
+            <button
+              class="absolute top-0 right-0 h-[80%] mt-1 mr-1 px-4 bg-[#FFBD3A] text-white rounded-lg cursor-pointer hover:bg-orange-600"
+            >
+              SUBSCRIBE
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-gray-50 text-gray-600 py-12">
+        <div class="container mx-auto max-w-6xl px-4">
+          <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-5">
+            <div class="lg:col-span-2">
+              <a href="#" class="text-2xl font-bold text-gray-800">
+                <img
+                  src="./assets/images/logo.png"
+                  alt="Logo"
+                  class="h-6 md:h-8 mb-5"
+                />
+              </a>
+              <p class="mt-4 text-base font-semibold text-gray-800">
+                Gali Potensi Anda Melalui Pembelajaran Video di hariesok.id!
+              </p>
+              <p class="mt-2 text-sm">
+                Jl. Usman Effendi No. 50 Lowokwaru, Malang
+              </p>
+              <p class="mt-1 text-sm">+62-877-7123-1234</p>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-gray-800">Kategori</h3>
+              <ul class="mt-4 space-y-3">
+                <li>
+                  <a
+                    href="#"
+                    class="text-sm hover:text-gray-900 hover:underline"
+                    >Digital & Teknologi</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-sm hover:text-gray-900 hover:underline"
+                    >Pemasaran</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-sm hover:text-gray-900 hover:underline"
+                    >Manajemen Bisnis</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-sm hover:text-gray-900 hover:underline"
+                    >Pengembangan Diri</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-sm hover:text-gray-900 hover:underline"
+                    >Desain</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-gray-800">Perusahaan</h3>
+              <ul class="mt-4 space-y-3">
+                <li>
+                  <a
+                    href="#"
+                    class="text-sm hover:text-gray-900 hover:underline"
+                    >Tentang Kami</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-sm hover:text-gray-900 hover:underline"
+                    >FAQ</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-sm hover:text-gray-900 hover:underline"
+                    >Kebijakan Privasi</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-sm hover:text-gray-900 hover:underline"
+                    >Ketentuan Layanan</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-sm hover:text-gray-900 hover:underline"
+                    >Bantuan</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-gray-800">Komunitas</h3>
+              <ul class="mt-4 space-y-3">
+                <li>
+                  <a
+                    href="#"
+                    class="text-sm hover:text-gray-900 hover:underline"
+                    >Tips Sukses</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-sm hover:text-gray-900 hover:underline"
+                    >Blog</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <hr class="my-8 border-gray-200" />
+
+          <div
+            class="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0"
+          >
+            <p class="text-sm text-gray-500">
+              ©2023 Gerobak Sayur All Rights Reserved.
+            </p>
+            <div class="flex space-x-4">
+              <a href="#" class="text-gray-500 hover:text-gray-900">
+                <svg
+                  class="h-6 w-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="text-gray-500 hover:text-gray-900">
+                <svg
+                  class="h-6 w-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v2.385z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="text-gray-500 hover:text-gray-900">
+                <svg
+                  class="h-6 w-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.25-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.85s.012-3.584.07-4.85c.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="text-gray-500 hover:text-gray-900">
+                <svg
+                  class="h-6 w-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.418 0-6.191 2.773-6.191 6.193 0 .486.055.958.16 1.413-5.148-.258-9.713-2.724-12.775-6.483-.533.916-.838 1.979-.838 3.102 0 2.147 1.092 4.038 2.756 5.153-.998-.03-1.938-.306-2.763-.762v.076c0 3.003 2.136 5.503 4.972 6.072-.519.14-1.063.216-1.623.216-.399 0-.787-.038-1.165-.112.788 2.463 3.078 4.258 5.794 4.31A12.44 12.44 0 0 1 0 19.542a17.536 17.536 0 0 0 9.49 2.786c11.385 0 17.61-9.453 17.61-17.61 0-.269-.005-.536-.016-.803.001-.001.001-.001.001-.002.6-.435 1.125-.975 1.541-1.597z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+      const avatar = document.getElementById("avatar");
+      const dropdown = document.getElementById("dropdown");
+
+      avatar.addEventListener("click", () => {
+        dropdown.classList.toggle("hidden");
+      });
+    </script>
+  
+</body>
+</html>
